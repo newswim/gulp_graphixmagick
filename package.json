@@ -1,0 +1,32 @@
+{
+  "name": "gulp_graphixmagick",
+  "version": "1.0.0",
+  "description": "Little app for image omtimization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newswim/gulp_graphixmagick.git"
+  },
+  "keywords": [
+    "gulp",
+    "image",
+    "optimization",
+    "graphicsmagic",
+    "imageoptim"
+  ],
+  "author": "DCM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newswim/gulp_graphixmagick/issues"
+  },
+  "homepage": "https://github.com/newswim/gulp_graphixmagick#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-image-resize": "^0.7.1",
+    "gulp-imagemin": "^2.4.0",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
